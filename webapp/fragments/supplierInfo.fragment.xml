@@ -1,0 +1,23 @@
+<core:FragmentDefinition xmlns:f="sap.ui.layout.form" xmlns="sap.m" xmlns:core="sap.ui.core">
+
+<f:SimpleForm>
+
+<Label text="Supplier Name"/>
+
+<Text text="{N_PRODUCT_TO_SUPPLIER/COMPANY_NAME}"/>
+
+<Label text="Website" class="sapUiSmallMarginTop"/>
+
+<Link text="{N_PRODUCT_TO_SUPPLIER/WEB_ADDRESS}" class="sapUiSmallMarginTop"/>
+
+<Label text="Address"/>
+
+<Text text="{N_PRODUCT_TO_SUPPLIER/BUILDING}, {N_PRODUCT_TO_SUPPLIER/STREET} {N_PRODUCT_TO_SUPPLIER/CITY}, {N_PRODUCT_TO_SUPPLIER/COUNTRY}"/>
+
+<Label text="Phone No"/>
+
+<Text text="{N_PRODUCT_TO_SUPPLIER/PHONE_NUMBER}"/>
+
+</f:SimpleForm>
+
+</core:FragmentDefinition>
